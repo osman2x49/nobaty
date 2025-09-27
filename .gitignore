@@ -23,7 +23,10 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
-
+# إضافة هذه السطور
+config.py
+*.env
+secrets/
 # ملفات CSV مؤقتة
 *.csv
 
