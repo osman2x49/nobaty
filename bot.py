@@ -8,7 +8,7 @@ import threading
 import time
 
 # ============================ إعدادات البوت ============================
-BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"
+BOT_TOKEN = "BOT_TOKEN"
 ADMIN_CREDENTIALS = {
     'username': 'admin',
     'password': 'admin123'
