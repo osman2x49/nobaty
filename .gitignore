@@ -1,35 +1,21 @@
-# بيئة افتراضية
+# ملفات بايثون
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# بيئات افتراضية
 venv/
 env/
 .venv/
-
-# قاعدة البيانات المحلية
-*.db
-*.sqlite3
-*.db-journal
-
-# المفاتيح والبيانات الحساسة
-config.py
-.env
-.secrets
-*.key
 
 # ملفات النظام
 .DS_Store
 Thumbs.db
 
-# ملفات بايثون مؤقتة
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-# إضافة هذه السطور
-config.py
-*.env
-secrets/
-# ملفات CSV مؤقتة
-*.csv
-
-# سجلات التشغيل
+# سجلات
 *.log
 logs/
+
+# قاعدة البيانات (احتفظ بها على Render)
+# *.db
